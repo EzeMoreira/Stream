@@ -1,0 +1,81 @@
+:root {
+	background-color: #000000;
+	color: #d11300;
+}
+
+* {
+	font-family: bebas neue;
+}
+
+body {
+	background: #000000;
+}
+
+.contenedor {
+	display: flex;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px; 
+	display: flex;
+	justify-content: space-around;
+}
+
+header .segcontenedor {
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+h2 {
+	color: #d11300;
+	font-size: 20px;
+}
+
+nav a {
+	color: #878787;
+	margin-right: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fcfcfc;
+}
+
+.pelicula-principal {
+	background: url(/img/los_pinguinos_de_madagascar.jpg);
+	font-size: 20px;
+	height: 580px;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+
+header .contenedores {
+	color: #878787;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+button {
+	background: #000000;
+	color: #fcfcfc;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 25px;
+	transition: 0.3s;
+}
+
+img {
+	height: 580px;
+	width: 1300px;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+	margin-top: 0;
+	font-size: small;
+	height: 15rem;
+}

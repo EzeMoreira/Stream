@@ -1,0 +1,51 @@
+* {
+	font-family: "Bebas Neue";
+}
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/fondo\ pinguinos\ 2.jpg);
+	background-repeat: no-repeat;
+}
+#titulo {
+	display: flex;
+	justify-content: center;
+}
+#carta {
+	background-color: transparent;
+	width: 80vh;
+	margin-left: 1rem;
+}
+h4 {
+	color: red;
+}
+p {
+	color: white;
+}
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-bottom: 20px;
+}
+h1 {
+	display: flex;
+	justify-content: start;
+	color: white;
+	margin-left: 50px;
+}
+.listapelis {
+	display: inline-block;
+}
+.pelisrecomendadas {
+	height: 90px;
+	width: 200px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.rollingstreming {
+	display: flex;
+	justify-content: center;
+	margin-top: 0.2rem;
+}
+.fotologo {
+	width: 20rem;
+}

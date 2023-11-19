@@ -1,0 +1,71 @@
+* {
+	font-family: "Bebas Neue";
+}
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/fondo\ wd.jpg);
+	background-repeat: no-repeat;
+}
+#titulo {
+	display: flex;
+	justify-content: center;
+	height: 150px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#carta {
+	background-color: transparent;
+	margin-left: 50px;
+}
+h5 {
+	color: red;
+}
+p {
+	color: white;
+}
+footer {
+	text-align: center;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+	margin-top: 15px;
+	font-size: small;
+	opacity: 0.8;
+}
+
+#cap1 {
+	display: flex;
+	margin: 10px;
+	background-color: transparent;
+}
+#selector {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.capitulos {
+	display: flex;
+}
+h1 {
+	display: flex;
+	justify-content: start;
+	color: white;
+	margin-left: 50px;
+}
+.listapelis {
+	display: inline-block;
+}
+.pelisrecomendadas {
+	height: 90px;
+	width: 200px;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+.rollingstreming {
+	display: flex;
+	justify-content: center;
+	margin-top: 0.2rem;
+}
+.fotologo {
+	width: 20rem;
+}
